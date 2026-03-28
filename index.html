@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Boda Imperial: Edith & Luis</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;600&family=Pinyon+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;600&family=Pinyon+Script&family=Great+Vibes&display=swap" rel="stylesheet">
     
     <style>
         /* === ESTILOS BASE FORMALES === */
@@ -16,7 +16,7 @@
             overflow-x: hidden; width: 100%;
         }
 
-        /* === ESTILOS DEL SOBRE (CORREGIDOS) === */
+        /* === ESTILOS DEL SOBRE === */
         #overlay { 
             position: fixed; top: 0; left: 0; width: 100%; height: 100%; 
             background: #b59410; display: flex; justify-content: center; align-items: center; 
@@ -48,15 +48,14 @@
             font-weight: bold; cursor: pointer; box-shadow: 0 5px 15px rgba(0,0,0,0.2);
         }
 
-        /* EFECTO APERTURA */
         #overlay.abierto { opacity: 0; visibility: hidden; pointer-events: none; transform: translateY(-100vh); }
         #overlay.abierto .tapa { transform: rotateX(160deg); }
 
-        /* === CABECERA NEGRA (FORMAL) === */
+        /* === CABECERA CON CURSIVA ELEGANTE === */
         .header-negro { background-color: #111; padding: 60px 10px; color: #d4af37; width: 100%; }
         .header-negro h1 { 
-            font-family: 'Playfair Display', serif; 
-            font-size: 3rem; margin: 0; font-weight: 700; letter-spacing: 2px;
+            font-family: 'Great Vibes', cursive; /* LA CURSIVA QUE QUERÍAS */
+            font-size: 4rem; margin: 0; font-weight: 400; text-transform: none;
         }
         .header-negro p { font-family: 'Cinzel', serif; letter-spacing: 4px; font-size: 0.8rem; color: #fff; margin-top: 10px; }
 
@@ -72,8 +71,8 @@
         /* === SECCIONES === */
         .seccion { padding: 45px 20px; width: 92%; margin: 20px auto; background: white; border-radius: 4px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
         .titulo-oro { color: #b59410; font-family: 'Cinzel', serif; text-transform: uppercase; letter-spacing: 3px; font-size: 1.2rem; margin-bottom: 20px; }
-        .frase-romantica { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.2rem; color: #a3850d; line-height: 1.6; margin-bottom: 30px; }
-        .texto-gala-pinyon { font-family: 'Pinyon Script', cursive; font-size: 3rem; color: #b59410; margin: 15px 0; }
+        .frase-romantica { font-family: 'Pinyon Script', cursive; font-size: 1.8rem; color: #a3850d; line-height: 1.2; margin-bottom: 30px; }
+        .texto-gala-pinyon { font-family: 'Pinyon Script', cursive; font-size: 3.2rem; color: #b59410; margin: 15px 0; }
 
         /* SECCIÓN PADRES */
         .grid-padres { display: flex; flex-direction: column; gap: 25px; margin-top: 25px; }
@@ -130,7 +129,7 @@
     </div>
 
     <div class="seccion reveal">
-        <p class="texto-gala-pinyon" style="font-size: 2.2rem;">Con la bendición de nuestros padres</p>
+        <p class="texto-gala-pinyon" style="font-size: 2.5rem;">Con la bendición de nuestros padres</p>
         <div class="grid-padres">
             <div>
                 <p class="etiqueta-padres">Padres de la Novia</p>
